@@ -21,6 +21,7 @@ import logoS3 from './logoS3.png';
 import logoCF from './logoCloudFront.png';
 import './App.css';
 import { useFetch } from "react-async"
+import './splunk-instrumentation.js'
 
 // To be replaced by the endpoint of the API deployed through the CloudFormation Template
 const APIEndPoint = 'to be replaced with your api endpoint here'
